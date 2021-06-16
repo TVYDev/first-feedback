@@ -49,7 +49,7 @@ function useProviderAuth() {
 
 function formatUser(user) {
   if (!user) return user;
-  // console.log(user.providerData[0].providerId);
+
   return {
     uid: user.uid,
     name: user.displayName,
